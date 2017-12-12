@@ -1,0 +1,17 @@
+{
+    "name": "javascript-katas",
+    "version": "1.0.0",
+    "description": "JavaScript training repository used to learn and practice by solving some common katas.",
+    "repository": "git@github.com:kireidev/javascript-katas.git",
+    "author": "kireidev",
+    "private": false,
+    "scripts": {
+        "test": "mocha --recursive --require babel-register"
+    },
+    "devDependencies": {
+        "babel-preset-env": "^1.6.1",
+        "babel-register": "^6.26.0",
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1"
+    }
+}
