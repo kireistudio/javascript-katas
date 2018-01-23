@@ -1,7 +1,7 @@
 import { getFizzBuzz } from '../../src/fizzbuzz/fizzbuzz'
 var assert = require('chai').assert
 
-describe('print()', function() {
+describe('fizzbuzz-kata', function() {
 
   it('should return 1 when the value is 1', function() {
     var result =  getFizzBuzz(1);
